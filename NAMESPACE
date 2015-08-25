@@ -1,0 +1,11 @@
+exportPattern("^[[:alpha:]]+")
+exportClasses(
+    "GBNetwork" 
+)
+import("igraph")
+import("MASS")
+import("ggplot2")
+import("plyr")
+import("grid")
+import("ggm")
+import("reshape2")

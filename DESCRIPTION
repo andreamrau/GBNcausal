@@ -1,0 +1,10 @@
+Package: GBNcausal
+Type: Package
+Title: Causal estimation for Gaussian Bayesian networks
+Version: 1.0.1
+Date: 2015-08-25
+Author: Andrea Rau, Gilles Monneret, Audrey Hulot
+Maintainer: Andrea Rau <andrea.rau@jouy.inra.fr>
+Description: This package implements an MCMC algorithm using a Mallows proposal distribution to explore the posterior distribution of gene orderings in a Gaussian Bayesian network to estimate direct and total causal effects among pairs of genes.
+License: GPL (>=3)
+Imports: igraph, MASS, ggplot2, ggm, plyr, grid, reshape2
